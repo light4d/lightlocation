@@ -1,4 +1,4 @@
-package location
+package lightlocation
 
 import (
 	"crypto/md5"

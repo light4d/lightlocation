@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/light4d/lightlocation/location"
+	"github.com/light4d/lightlocation"
 	"testing"
 )
 
@@ -19,5 +19,5 @@ func Test_location(T *testing.T) {
 	//
 	//fmt.Println("url: " + location.createBaiduReqUrl("116.30.218.255"))
 	//
-	location.GetLocation(nil)
+	lightlocation.GetLocation(nil)
 }
