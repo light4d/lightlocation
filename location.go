@@ -2,20 +2,20 @@ package location
 
 import (
 	"crypto/md5"
+	"encoding/json"
+	"errors"
 	"fmt"
+	"io/ioutil"
 	"net"
 	"net/http"
 	"net/url"
 	"strings"
-	"io/ioutil"
-	"encoding/json"
-	"errors"
 )
 
 // 百度lbs相关
 const (
-	BaiduAk = "EcaqNxUoy0LHtsVKXIshPOqHZZAHN7sj"   // BaiduAk
-	BaiduSk = "jh9cjRcM8CpBkuB4Sm5mnBMgAboqcUz3"   // BaiduSk
+	BaiduAk    = "EcaqNxUoy0LHtsVKXIshPOqHZZAHN7sj"          // BaiduAk
+	BaiduSk    = "jh9cjRcM8CpBkuB4Sm5mnBMgAboqcUz3"          // BaiduSk
 	BaiduIPUrl = "https://api.map.baidu.com/location/ip?ip=" // 百度ip获取位置信息url
 )
 
@@ -26,9 +26,9 @@ const (
 )
 
 /*GetLocation 根据req获取当前请求的地理位置信息,
- 如header中有longitude(经度)、latitude(纬度)字段,
- 则根据经纬度逆地理编码结构化为详细地址,如果没有上面两个字段,
- 则通过获取调用方ip获取详细地址
+如header中有longitude(经度)、latitude(纬度)字段,
+则根据经纬度逆地理编码结构化为详细地址,如果没有上面两个字段,
+则通过获取调用方ip获取详细地址
 */
 func GetLocation(req *http.Request) (string, string, error) {
 	// 获取经度
