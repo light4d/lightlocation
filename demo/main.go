@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/light4d/lightlocation/lightlocation"
+	"github.com/light4d/lightlocation"
 	"net/http"
 )
 
