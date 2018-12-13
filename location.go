@@ -37,7 +37,13 @@ func GetLocation(req *http.Request) (string, string, error) {
 	// 获取纬度
 	latitude := req.Header.Get("latitude")
 
+	// 获取远程ip
 	ip := remoteIP(req)
+
+	// 如果获取到为内网ip则不传给百度
+	if !isPublicIP(net.ParseIP(ip)) {
+		ip = ""
+	}
 
 	// 如代理ip数组不为空, 则取第一个ip作为调用客户端ip
 	if longitude == "" || latitude == "" {
@@ -161,4 +167,26 @@ func remoteIP(req *http.Request) string {
 	}
 
 	return remoteAddr
+}
+
+/**
+   是否为公网IP
+ */
+func isPublicIP(IP net.IP) bool {
+	if IP.IsLoopback() || IP.IsLinkLocalMulticast() || IP.IsLinkLocalUnicast() {
+		return false
+	}
+	if ip4 := IP.To4(); ip4 != nil {
+		switch true {
+		case ip4[0] == 10:
+			return false
+		case ip4[0] == 172 && ip4[1] >= 16 && ip4[1] <= 31:
+			return false
+		case ip4[0] == 192 && ip4[1] == 168:
+			return false
+		default:
+			return true
+		}
+	}
+	return false
 }

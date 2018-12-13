@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f5bd9c9-fd21-4720-b11b-93bcbadea54a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lightlocation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/location/location.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/location_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location.go" beforeDir="false" afterPath="$PROJECT_DIR$/location.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/location_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/location_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,16 +26,17 @@
     <session id="1063408143">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="go" value="17" />
+          <entry key="go" value="19" />
           <entry key="mod" value="3" />
           <entry key="sum" value="1" />
         </counts>
@@ -50,18 +44,18 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DTD" value="3" />
-          <entry key="Go" value="17" />
+          <entry key="Go" value="19" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="3599" />
+          <entry key="go" value="3827" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="3599" />
+          <entry key="Go" value="3827" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.go.postfix.template.usages.trigger">
@@ -79,49 +73,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/location/location.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-              <folding>
-                <element signature="e#18#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/go/src/net/ipsock.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="2265">
               <caret line="154" column="5" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go.mod">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/location.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="304">
+              <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.go">
+        <entry file="file://$PROJECT_DIR$/demo/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#14#88#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -129,24 +103,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/location_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="217">
+              <caret line="24" column="107" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="24" selection-end-column="107" />
               <folding>
-                <element signature="e#15#81#0" expanded="true" />
+                <element signature="e#15#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go.sum">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/go/src/testing/testing.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="11625">
               <caret line="791" selection-start-line="791" selection-end-line="791" />
             </state>
           </provider>
@@ -155,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/go/src/runtime/panic.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="7620">
               <caret line="512" selection-start-line="512" selection-end-line="512" />
             </state>
           </provider>
@@ -184,10 +153,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/location_test.go" />
-        <option value="$PROJECT_DIR$/location.go" />
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/tests/location_test.go" />
         <option value="$PROJECT_DIR$/location/location.go" />
+        <option value="$PROJECT_DIR$/demo/main.go" />
+        <option value="$PROJECT_DIR$/tests/location_test.go" />
+        <option value="$PROJECT_DIR$/location.go" />
       </list>
     </option>
   </component>
@@ -198,7 +168,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="75" />
+    <option name="y" value="27" />
     <option name="width" value="1280" />
     <option name="height" value="747" />
   </component>
@@ -208,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,7 +190,7 @@
             <path>
               <item name="lightlocation" type="b2602c69:ProjectViewProjectNode" />
               <item name="lightlocation" type="462c0819:PsiDirectoryNode" />
-              <item name="location" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lightlocation" type="b2602c69:ProjectViewProjectNode" />
@@ -229,7 +201,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,7 +236,16 @@
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
+      <filePath value="$PROJECT_DIR$/demo/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="lightlocation" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/demo/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -293,28 +273,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Test.TestLocation in location_test.go" />
       <item itemvalue="Go Test.Test_location in github.com/light4d/lightlocation/tests" />
-      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.Test_location in github.com/light4d/lightlocation/tests" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestLocation in location_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_location_in_github_com_light4d_lightlocation_tests - 2018.12.10 at 14h 28m 11s.xml">
-      <configuration name="Test_location in github.com/light4d/lightlocation/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_location_in_github_com_light4d_lightlocation_tests - 2018.12.10 at 15h 37m 43s.xml">
-      <configuration name="Test_location in github.com/light4d/lightlocation/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_location_in_github_com_light4d_lightlocation_tests - 2018.12.10 at 15h 38m 27s.xml">
-      <configuration name="Test_location in github.com/light4d/lightlocation/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="Test_location_in_github_com_light4d_lightlocation_tests - 2018.12.10 at 15h 46m 15s.xml">
       <configuration name="Test_location in github.com/light4d/lightlocation/tests" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -336,25 +308,35 @@
     <history-entry file="Test_location_in_github_com_light4d_lightlocation_tests - 2018.12.10 at 17h 24m 09s.xml">
       <configuration name="Test_location in github.com/light4d/lightlocation/tests" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="Test_location_in_github_com_light4d_lightlocation_tests - 2018.12.13 at 23h 12m 46s.xml">
+      <configuration name="Test_location in github.com/light4d/lightlocation/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_location_in_github_com_light4d_lightlocation_tests - 2018.12.13 at 23h 13m 51s.xml">
+      <configuration name="Test_location in github.com/light4d/lightlocation/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_location_in_github_com_light4d_lightlocation_tests - 2018.12.13 at 23h 15m 16s.xml">
+      <configuration name="Test_location in github.com/light4d/lightlocation/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="23" width="1280" height="747" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="747" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336026" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18820679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="REST Client" weight="0.4610687" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32977098" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45343512" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45343512" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2610687" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32977098" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.57099235" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="REST Client" order="11" weight="0.4610687" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,66 +389,58 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod" />
+    <entry file="file://$PROJECT_DIR$/go.sum" />
+    <entry file="file://$PROJECT_DIR$/main.go" />
+    <entry file="file://$PROJECT_DIR$/location/location.go" />
+    <entry file="file:///usr/local/go/src/net/ipsock.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="154" column="5" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file:///usr/local/go/src/testing/testing.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="11625">
           <caret line="791" selection-start-line="791" selection-end-line="791" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="7620">
           <caret line="512" selection-start-line="512" selection-end-line="512" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go.mod">
+    <entry file="file://$PROJECT_DIR$/demo/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go.sum">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/go/src/net/ipsock.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="154" column="5" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#14#88#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/location_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="217">
+          <caret line="24" column="107" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="24" selection-end-column="107" />
           <folding>
-            <element signature="e#15#81#0" expanded="true" />
+            <element signature="e#15#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/location/location.go">
+    <entry file="file://$PROJECT_DIR$/location.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-          <folding>
-            <element signature="e#18#130#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,6 @@
 package tests
 
 import (
-	"github.com/light4d/lightlocation"
 	"testing"
 )
 
@@ -19,5 +18,9 @@ func Test_location(T *testing.T) {
 	//
 	//fmt.Println("url: " + location.createBaiduReqUrl("116.30.218.255"))
 	//
-	lightlocation.GetLocation(nil)
+	//lightlocation.GetLocation(nil)
+
+	//fmt.Printf("192.168.31.1 is public ip %t\n", lightlocation.IsPublicIP(net.ParseIP("192.168.31.1")))
+	//fmt.Printf("127.0.0.1 is public ip %t\n", lightlocation.IsPublicIP(net.ParseIP("127.0.0.1")))
+	//fmt.Printf("113.90.244.98 is public ip %t\n", lightlocation.IsPublicIP(net.ParseIP("113.90.244.98")))
 }
