@@ -16,7 +16,7 @@ import (
 const (
 	BaiduAk    = "EcaqNxUoy0LHtsVKXIshPOqHZZAHN7sj"          // BaiduAk
 	BaiduSk    = "jh9cjRcM8CpBkuB4Sm5mnBMgAboqcUz3"          // BaiduSk
-	BaiduIPUrl = "https://api.map.baidu.com/location/ip?ip=" // 百度ip获取位置信息url
+	BaiduIPUrl = "https://api.map.baidu.com/location/ip?" // 百度ip获取位置信息url
 )
 
 // ip相关header
@@ -109,12 +109,14 @@ func GetLocation(req *http.Request) (string, string, error) {
 */
 func createBaiduReqURL(realIP string) (url string) {
 	paramsMap := make(map[string]string)
-	paramsMap["ip"] = realIP
+	if realIP != "" {
+		paramsMap["ip"] = realIP
+	}
 	paramsMap["ak"] = BaiduAk
 	paramsMap["coor"] = "bd09ll"
 	paramsStr := toQueryString(paramsMap)
 	sn := createBaiduLbsSn(paramsStr)
-	url = BaiduIPUrl + realIP + "&ak=" + BaiduAk + "&coor=bd09ll" + "&sn=" + sn
+	url = BaiduIPUrl + paramsStr + "&sn=" + sn
 	return
 }
 
@@ -142,7 +144,8 @@ func createBaiduLbsSn(paramsStr string) (sn string) {
 
 	// 百度lbs sn
 	sn = fmt.Sprintf("%x", md5.Sum([]byte(url.QueryEscape(wholeStr))))
-
+	fmt.Print("wholeStr:", wholeStr)
+    //fmt.Print("sn:", sn)
 	return
 }
 
